@@ -684,27 +684,6 @@ npm run start:dev
 cd parquin-frontend
 npm install
 npm start
-```
-
----
-
-## 15. Checklist de entrega
-
-- [ ] Scripts SQL ejecutados en MySQL (`parquin`)
-- [ ] Ingreso: tipo, placa, fecha/hora ingreso
-- [ ] Salida: fecha/hora automática, minutos calculados
-- [ ] Tarifa $50/min y total visible en UI
-- [ ] Correo al salir vía API externa documentada
-- [ ] Frontend Angular + Backend NestJS hexagonal
-- [ ] README y `.env.example` actualizados
-- [ ] Tests de calculadora y casos de uso
-
----
-
-## Notas para el agente de Cursor
-
-1. Leer **sección 3** (lógica) antes de modificar calculadora o salida.
-2. Usar **scripts en `parquin-backend/database/`** (no hay auto-sync).
 3. Código de dominio en `parquin-backend/src/domain/` y `application/`.
 4. UI en `parquin-frontend/src/app/features/parking/`.
 5. Credenciales solo en `.env`, nunca en el repo.
